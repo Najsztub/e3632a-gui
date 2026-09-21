@@ -1,0 +1,328 @@
+/* Agilent E3632A Professional GUI - Dark Theme */
+
+QMainWindow {
+    background-color: #0d1117;
+}
+
+QWidget {
+    font-family: "Consolas", "Courier New", monospace;
+    color: #c9d1d9;
+}
+
+QLabel {
+    color: #c9d1d9;
+    background: transparent;
+}
+
+QGroupBox {
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 8px;
+    font-size: 10px;
+    background-color: #0d1117;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 5px;
+    color: #58a6ff;
+    font-weight: bold;
+    font-size: 10px;
+}
+QGroupBox::indicator {
+    width: 13px;
+    height: 13px;
+}
+
+QPushButton {
+    background-color: #161b22;
+    color: #58a6ff;
+    border: 1px solid #30363d;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+QPushButton:hover {
+    background-color: #1c2128;
+    border-color: #58a6ff;
+}
+QPushButton:pressed {
+    background-color: #0d1117;
+}
+QPushButton:disabled {
+    color: #484f58;
+    border-color: #21262d;
+}
+
+QComboBox {
+    background-color: #161b22;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+QComboBox::drop-down {
+    border: none;
+}
+QComboBox::down-arrow {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 5px solid #58a6ff;
+    margin-right: 4px;
+}
+QComboBox:hover {
+    border-color: #58a6ff;
+}
+
+QLineEdit, QSpinBox, QDoubleSpinBox {
+    background-color: #161b22;
+    color: #58a6ff;
+    border: 1px solid #30363d;
+    padding: 3px 5px;
+    border-radius: 2px;
+    font-size: 10px;
+}
+QLineEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus {
+    border-color: #58a6ff;
+}
+
+QCheckBox {
+    color: #8b949e;
+    font-size: 9px;
+    spacing: 4px;
+}
+QCheckBox::indicator {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #30363d;
+    border-radius: 3px;
+    background-color: #161b22;
+}
+QCheckBox::indicator:checked {
+    background-color: #58a6ff;
+    border-color: #58a6ff;
+}
+QCheckBox:hover {
+    color: #c9d1d9;
+}
+
+QTabWidget::pane {
+    border: 1px solid #30363d;
+    background-color: #0d1117;
+}
+QTabBar::tab {
+    background-color: #161b22;
+    color: #8b949e;
+    padding: 7px 14px;
+    border: 1px solid #30363d;
+    border-bottom: none;
+    font-size: 10px;
+}
+QTabBar::tab:selected {
+    background-color: #1c2128;
+    color: #58a6ff;
+    border-bottom: 2px solid #58a6ff;
+}
+QTabBar::tab:hover {
+    color: #c9d1d9;
+}
+
+QTextEdit {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    font-family: "Consolas", monospace;
+    font-size: 10px;
+}
+QTextEdit:focus {
+    border-color: #58a6ff;
+}
+
+QScrollBar:vertical {
+    background: #0d1117;
+    width: 10px;
+    border: none;
+}
+QScrollBar::handle:vertical {
+    background: #30363d;
+    min-height: 20px;
+    border-radius: 4px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #484f58;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0;
+}
+
+QScrollBar:horizontal {
+    background: #0d1117;
+    height: 10px;
+    border: none;
+}
+QScrollBar::handle:horizontal {
+    background: #30363d;
+    min-width: 20px;
+    border-radius: 4px;
+}
+QScrollBar::handle:horizontal:hover {
+    background: #484f58;
+}
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0;
+}
+
+QSplitter::handle {
+    background: #30363d;
+    width: 1px;
+    height: 1px;
+}
+
+QScrollArea {
+    border: none;
+    background-color: #090c12;
+}
+
+QFrame[frameShape="4"] {
+    color: #30363d;
+}
+
+QTableWidget {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    gridline-color: #21262d;
+    font-size: 10px;
+}
+QHeaderView::section {
+    background-color: #161b22;
+    color: #8b949e;
+    border: 1px solid #30363d;
+    padding: 4px;
+    font-size: 9px;
+    font-weight: bold;
+}
+QTableWidget::item {
+    padding: 2px 4px;
+}
+QTableWidget::item:selected {
+    background-color: #1f3a5f;
+    color: #58a6ff;
+}
+
+QMenuBar {
+    background-color: #161b22;
+    color: #8b949e;
+    border-bottom: 1px solid #30363d;
+}
+QMenuBar::item:selected {
+    background-color: #1c2128;
+    color: #58a6ff;
+}
+QMenu {
+    background-color: #161b22;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+}
+QMenu::item:selected {
+    background-color: #1c2128;
+    color: #58a6ff;
+}
+
+QStatusBar {
+    background-color: #161b22;
+    color: #8b949e;
+    border-top: 1px solid #30363d;
+    font-size: 9px;
+}
+
+/* --- Object-Name Widget Styles --- */
+
+#leftPanel {
+    background-color: #090c12;
+}
+#titleLabel {
+    font-size: 16px; font-weight: bold; color: #c9d1d9; padding: 2px 0;
+}
+#subtitleLabel {
+    color: #6e7681; font-size: 10px;
+}
+#idnLabel {
+    color: #8b949e; font-size: 8px;
+}
+#liveBar {
+    background-color: #0d1117; border: 1px solid #30363d; border-radius: 4px; padding: 4px;
+}
+#liveSep {
+    color: #30363d; font-size: 16px;
+}
+#liveSubheader {
+    font-size: 10px; font-weight: bold; color: #6e7681;
+}
+#chTabs QTabWidget::pane {
+    border: none; background: transparent;
+}
+#chTabs QTabBar::tab {
+    background: #161b22; color: #8b949e; padding: 3px 10px;
+    border-top-left-radius: 3px; border-top-right-radius: 3px;
+}
+#chTabs QTabBar::tab:selected {
+    background: #0d1117; color: #c9d1d9; border-bottom: 2px solid #58a6ff;
+}
+#applyBtnA {
+    color: #58a6ff; font-weight: bold;
+}
+#applyBtnA:hover {
+    color: #79c0ff;
+}
+#applyBtnB {
+    color: #bc8cff; font-weight: bold;
+}
+#applyBtnB:hover {
+    color: #d2a8ff;
+}
+#consoleOutput, #consoleInput {
+    background-color: #0d1117; color: #c9d1d9;
+}
+#exportLogDisplay {
+    background-color: #0d1117; color: #8b949e; font-size: 10px;
+}
+
+QLabel[statChannel="a"] {
+    color: #58a6ff; font-size: 11px; font-weight: bold; font-family: monospace;
+}
+QLabel[statChannel="b"] {
+    color: #bc8cff; font-size: 11px; font-weight: bold; font-family: monospace;
+}
+
+/* --- E3632A additions --- */
+#outputBtnOff {
+    font-size: 13px; font-weight: bold; color: #8b949e;
+}
+#modeBadge, #liveMode {
+    font-weight: bold;
+}
+#liveValV {
+    color: #00ff80;
+}
+#liveValI {
+    color: #00d9ff;
+}
+#liveValP {
+    color: #58a6ff;
+}
+#liveValE {
+    color: #bc8cff;
+}
+#setpointLabel {
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 16px; font-weight: bold; color: #6e7681;
+}
+#protBadge, #modeBadge {
+    font-weight: bold;
+}
+#liveValR {
+    color: #e3b341;
+}

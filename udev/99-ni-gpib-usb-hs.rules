@@ -1,0 +1,7 @@
+# NI GPIB-USB-HS user-space access (ni-gpib-usb-hs / pyusb / libusb)
+# Install: sudo cp 99-ni-gpib-usb-hs.rules /etc/udev/rules.d/ && \
+#          sudo udevadm control --reload-rules && sudo udevadm trigger
+SUBSYSTEM=="usb", ATTR{idVendor}=="3923", ATTR{idProduct}=="709b", MODE="0666", GROUP="plugdev"
+# Keep the FX2 front-end awake: autosuspend caused bulk-transfer timeouts
+# on the adapter used during testing.
+SUBSYSTEM=="usb", ATTR{idVendor}=="3923", ATTR{idProduct}=="709b", ATTR{power/control}="on"
