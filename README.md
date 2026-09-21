@@ -146,3 +146,7 @@ OCP (0.8 A) and trigger defaults afterwards. Output state is restored.
 Developed with LLM assistance. Verified against a real E3632A
 (`HEWLETT-PACKARD,E3632A,0,1.2-5.0-1.0`) via NI GPIB-USB-HS.
 No responsibility for program outcomes; code is free to reuse.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
